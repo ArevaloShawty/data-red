@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS — Red Activa</title>
+  <link rel="icon" type="image/x-icon" href="Nexus.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="nav-logo"> <img src="NEXUS.jpg" alt="Logo NEXUS" height="50"> </span>
+      <span class="nav-name">NEXUS</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" data-section="quienes" class="nav-btn active">Nosotros</a></li>
+      <li><a href="#" data-section="mision" class="nav-btn">Misión</a></li>
+      <li><a href="#" data-section="vision" class="nav-btn">Visión</a></li>
+      <li><a href="#" data-section="producto" class="nav-btn">Red Activa</a></li>
+      <li><a href="#" data-section="flujo" class="nav-btn">Operación</a></li>
+      <li><a href="#" data-section="multimedia" class="nav-btn">Multimedia</a></li>
+      <li><a href="#" data-section="contacto" class="nav-btn">Contacto</a></li>
+      <li><a href="#" data-section="identidad" class="nav-btn">Identidad</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Tecnología · Conectividad · Crecimiento</p>
+      <h1 class="hero-title">
+        <span class="word">NEX</span><span class="word accent-word">US</span>
+      </h1>
+      <p class="hero-subtitle">El ecosistema web que pone a las microempresas salvadoreñas en el mapa digital.</p>
+      <div class="hero-cta-row">
+        <button class="btn-primary" data-section="producto" data-trigger="nav">Conoce Red Activa</button>
+        <button class="btn-ghost" data-section="quienes" data-trigger="nav">¿Quiénes somos?</button>
+      </div>
+    </div>
+    <div class="hero-graphic">
+      <div class="hex-grid">
+        <div class="hex h1"></div>
+        <div class="hex h2"></div>
+        <div class="hex h3"></div>
+        <div class="hex h4"></div>
+        <div class="hex h5"></div>
+        <div class="hex h6 center-hex"><span> <img src="NEXUS.png" alt="Logo NEXUS" height="50"></span></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- MAIN SECTIONS WRAPPER -->
+  <main class="sections-wrap">
+
+    <!-- ===== QUIÉNES SOMOS ===== -->
+    <section class="content-section active" id="sec-quienes">
+      <div class="section-inner split-layout">
+        <div class="split-text">
+          <p class="section-tag">// 01 — Empresa</p>
+          <h2 class="section-heading">¿Quiénes<br/><em>somos?</em></h2>
+          <p class="body-text">
+            NEXUS nació con una convicción clara: que las pequeñas empresas merecen las mismas herramientas digitales que las grandes corporaciones. Somos un equipo técnico especializado en el desarrollo de plataformas web complejas y sistematizadas, con un enfoque práctico y directo.
+          </p>
+          <p class="body-text">
+            Cada solución que construimos conecta negocios con clientes reales. No vendemos promesas: entregamos infraestructura funcional, escalable y pensada para el entorno empresarial salvadoreño.
+          </p>
+          <div class="stat-row">
+            <div class="stat-card">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Digital</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Escalable</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">SV</span>
+              <span class="stat-label">Hecho aquí</span>
+            </div>
+          </div>
+        </div>
+        <div class="split-visual">
+          <div class="visual-card card-glow">
+            <div class="vc-label">NEXUS CORE</div>
+            <div class="vc-diagram">
+              <div class="node main-node"><img src="Nexus.png" alt="Logo NEXUS" height="50"></div>
+              <div class="orbit-line"></div>
+              <div class="node sat-node n1">Web</div>
+              <div class="node sat-node n2">App</div>
+              <div class="node sat-node n3">API</div>
+              <div class="node sat-node n4">CMS</div>
+            </div>
+            <p class="vc-desc">Infraestructura centralizada para microempresas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MISIÓN ===== -->
+    <section class="content-section" id="sec-mision">
+      <div class="section-inner">
+        <p class="section-tag">// 02 — Propósito</p>
+        <h2 class="section-heading">Nuestra <em>Misión</em></h2>
+        <div class="quote-block">
+          <div class="quote-icon">🎯</div>
+          <blockquote>
+            Empoderar a las microempresas con una plataforma tecnológica centralizada y herramientas de personalización web intuitivas. En NEXUS reducimos la brecha digital para que cualquier negocio tenga presencia profesional en línea, autogestionable y con alta visibilidad en el mercado.
+          </blockquote>
+        </div>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon">⚡</div>
+            <h3>Accesibilidad</h3>
+            <p>Herramientas pensadas para quien no es técnico. Sin complicaciones, sin barreras.</p>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon">🔗</div>
+            <h3>Conectividad</h3>
+            <p>Unimos negocios y clientes en un mismo ecosistema digital activo y en crecimiento.</p>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon">📈</div>
+            <h3>Visibilidad</h3>
+            <p>Cada empresa que entra a la red gana exposición inmediata desde el primer día.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VISIÓN ===== -->
+    <section class="content-section" id="sec-vision">
+      <div class="section-inner">
+        <p class="section-tag">// 03 — Horizonte</p>
+        <h2 class="section-heading">Nuestra <em>Visión</em></h2>
+        <div class="quote-block vision-quote">
+          <div class="quote-icon">👁️</div>
+          <blockquote>
+            Para 2031, ser el ecosistema web líder en interconexión empresarial y creación de sitios personalizados a nivel regional. Queremos ser el motor tecnológico de los emprendedores: transformando cómo las microempresas se digitalizan, compiten y crecen en el entorno virtual.
+          </blockquote>
+        </div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2026</span>
+              <p>Inicio del proyecto NEXUS — Red Activa v1: directorio centralizado y editor de plantillas.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2027</span>
+              <p>Expansión de categorías y onboarding automatizado para nuevas microempresas.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2029</span>
+              <p>Interoperabilidad con plataformas de pago y logística local.</p>
+            </div>
+          </div>
+          <div class="tl-item tl-future">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2031</span>
+              <p>Ecosistema líder regional. Meta consolidada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RED ACTIVA ===== -->
+    <section class="content-section" id="sec-producto">
+      <div class="section-inner">
+        <p class="section-tag">// 04 — Producto</p>
+        <h2 class="section-heading">Red <em>Activa</em></h2>
+        <img src="red_activa.jpeg" alt="Imagen Red Activa" height="200" width="200"/>
+        <p class="lead-text">Un ecosistema web híbrido formado por dos sistemas independientes pero perfectamente interconectados.</p>
+
+        <div class="product-tabs">
+          <button class="ptab active" data-ptab="directorio">📋 Directorio</button>
+          <button class="ptab" data-ptab="personalizacion">🎨 Personalización</button>
+        </div>
+
+        <div class="ptab-content active" id="ptab-directorio">
+          <div class="feature-split">
+            <div class="feature-text">
+              <h3>El Directorio Centralizado</h3>
+              <p class="feature-subtitle">La Vitrina Comercial</p>
+              <p>La página principal del sistema reúne y organiza a todas las empresas participantes en un solo lugar de fácil acceso.</p>
+              <ul class="feature-list">
+                <li>
+                  <span class="fl-icon">🗂️</span>
+                  <div>
+                    <strong>Por categorías</strong>
+                    <p>Navega entre sectores: Ventas, Servicios, Insumos y más. Cada rubro tiene su propio espacio.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="fl-icon">🏪</span>
+                  <div>
+                    <strong>Perfil de empresa</strong>
+                    <p>Banners visuales y descripciones breves que comunican la esencia del negocio al instante.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="fl-icon">🚀</span>
+                  <div>
+                    <strong>Redirección directa</strong>
+                    <p>Un clic lleva al usuario a la página exclusiva y dedicada de cada microempresa.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="feature-mockup dir-mockup">
+              <div class="mock-header"><span></span><span></span><span></span></div>
+              <div class="mock-cats">
+                <div class="mock-cat active">Servicios</div>
+                <div class="mock-cat">Productos</div>
+                <div class="mock-cat">Insumos</div>
+              </div>
+              <div class="mock-cards">
+                <div class="mock-biz-card"><div class="mbc-img"></div><div class="mbc-name">Empresa A</div></div>
+                <div class="mock-biz-card"><div class="mbc-img c2"></div><div class="mbc-name">Empresa B</div></div>
+                <div class="mock-biz-card"><div class="mbc-img c3"></div><div class="mbc-name">Empresa C</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ptab-content" id="ptab-personalizacion">
+          <div class="feature-split">
+            <div class="feature-text">
+              <h3>El Sistema de Personalización</h3>
+              <p class="feature-subtitle">Creador de Sitios Web</p>
+              <p>Un servicio autónomo y guiado para que cualquier empresa diseñe su presencia web sin necesitar conocimientos técnicos.</p>
+              <ul class="feature-list">
+                <li>
+                  <span class="fl-icon">📐</span>
+                  <div>
+                    <strong>Plantilla automática</strong>
+                    <p>El cliente elige la categoría de su negocio y el sistema asigna la plantilla más adecuada.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="fl-icon">🖌️</span>
+                  <div>
+                    <strong>Editor visual</strong>
+                    <p>Cambia colores, textos, imágenes y disposición de los elementos sin escribir código.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="fl-icon">📦</span>
+                  <div>
+                    <strong>Envío de paquete</strong>
+                    <p>Al terminar, el cliente manda el paquete de datos directamente al equipo de NEXUS para su despliegue.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="feature-mockup editor-mockup">
+              <div class="mock-header"><span></span><span></span><span></span></div>
+              <div class="mock-editor">
+                <div class="mock-sidebar">
+                  <div class="ms-item active">Color</div>
+                  <div class="ms-item">Texto</div>
+                  <div class="ms-item">Imagen</div>
+                  <div class="ms-item">Layout</div>
+                </div>
+                <div class="mock-canvas">
+                  <div class="mc-hero-bar"></div>
+                  <div class="mc-content-row">
+                    <div class="mc-block b1"></div>
+                    <div class="mc-block b2"></div>
+                  </div>
+                  <div class="mc-footer-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== FLUJO DE OPERACIÓN ===== -->
+    <section class="content-section" id="sec-flujo">
+      <div class="section-inner">
+        <p class="section-tag">// 05 — Proceso</p>
+        <h2 class="section-heading">Cómo <em>Operamos</em></h2>
+        <p class="lead-text">Desde que el cliente finaliza su diseño hasta que su sitio aparece en la red. Cuatro pasos, cero complicaciones.</p>
+
+        <div class="flow-steps">
+          <div class="flow-step" data-step="1">
+            <div class="step-number">01</div>
+            <div class="step-icon">🖥️</div>
+            <div class="step-body">
+              <h3>El cliente edita su plantilla</h3>
+              <p>Usando el editor visual, el cliente personaliza su sitio y cuando está satisfecho envía el paquete de diseño a NEXUS.</p>
+            </div>
+            <div class="step-arrow">↓</div>
+          </div>
+          <div class="flow-step" data-step="2">
+            <div class="step-number">02</div>
+            <div class="step-icon">📥</div>
+            <div class="step-body">
+              <h3>NEXUS recibe el paquete</h3>
+              <p>Nuestro equipo revisa el paquete de diseño para verificar que todo esté en orden antes del despliegue.</p>
+            </div>
+            <div class="step-arrow">↓</div>
+          </div>
+          <div class="flow-step" data-step="3">
+            <div class="step-number">03</div>
+            <div class="step-icon">🌐</div>
+            <div class="step-body">
+              <h3>Subida al hosting</h3>
+              <p>Desplegamos el sitio en nuestro servidor con configuración de accesos, seguridad y estabilidad garantizada.</p>
+            </div>
+            <div class="step-arrow">↓</div>
+          </div>
+          <div class="flow-step last" data-step="4">
+            <div class="step-number">04</div>
+            <div class="step-icon">✅</div>
+            <div class="step-body">
+              <h3>Entrega y visibilidad</h3>
+              <p>Se envían las credenciales de administrador al cliente y el sitio queda indexado automáticamente en el directorio de Red Activa, con tráfico desde el día uno.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flow-note">
+          <span class="fn-icon">💡</span>
+          <p>Entrega y indexación ocurren en paralelo — el cliente administra su contenido mientras su negocio ya es visible en la red.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MULTIMEDIA ===== -->
+    <section class="content-section" id="sec-multimedia">
+      <div class="section-inner">
+        <p class="section-tag">// 06 — Multimedia</p>
+        <h2 class="section-heading">Galería y <em>Medios</em></h2>
+        <p class="lead-text">Conoce NEXUS en imágenes, escúchanos y mira cómo transformamos el ecosistema digital salvadoreño.</p>
+
+        <!-- SUB TABS MULTIMEDIA -->
+        <div class="media-tabs">
+          <button class="mtab active" data-mtab="imagenes">🖼️ Imágenes</button>
+          <button class="mtab" data-mtab="audio">🎵 Audio</button>
+          <button class="mtab" data-mtab="video">🎬 Video</button>
+        </div>
+
+        <!-- IMÁGENES -->
+        <div class="mtab-content active" id="mtab-imagenes">
+          <div class="gallery-grid">
+            <div class="gallery-item" data-caption="Red Activa — Directorio Principal">
+              <div class="gallery-img gi1">
+                
+                <div class="gi-overlay">
+                  <span class="gi-icon">🔍</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item" data-caption="Editor Visual de Plantillas">
+              <div class="gallery-img gi2">
+                <div class="gi-overlay">
+                  <span class="gi-icon">🔍</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item" data-caption="Panel de Control NEXUS">
+              <div class="gallery-img gi3">
+                <div class="gi-overlay">
+                  <span class="gi-icon">🔍</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item" data-caption="Microempresa — Vista de Cliente">
+              <div class="gallery-img gi4">
+                <div class="gi-overlay">
+                  <span class="gi-icon">🔍</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item" data-caption="Infraestructura de Hosting NEXUS">
+              <div class="gallery-img gi5">
+                <div class="gi-overlay">
+                  <span class="gi-icon">🔍</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item" data-caption="Equipo NEXUS — El Salvador">
+              <div class="gallery-img gi6">
+                <div class="gi-overlay">
+                  <span class="gi-icon">🔍</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- LIGHTBOX -->
+          <div class="lightbox" id="lightbox">
+            <button class="lb-close" id="lbClose">✕</button>
+            <div class="lb-img-wrap" id="lbImgWrap"></div>
+            <p class="lb-caption" id="lbCaption"></p>
+          </div>
+        </div>
+
+        <!-- AUDIO -->
+        <div class="mtab-content" id="mtab-audio">
+          <div class="audio-section">
+            <div class="audio-card">
+              <div class="audio-icon">🎙️</div>
+              <div class="audio-info">
+                <h3>Presentación NEXUS</h3>
+                <p>Escucha nuestra propuesta de valor en audio — quiénes somos, qué hacemos y cómo Red Activa transforma tu negocio.</p>
+              </div>
+              <audio controls class="audio-player">
+                <source src="audio/Nexus.mp3" type="audio/mpeg" />
+                Tu navegador no soporta audio HTML5.
+              </audio>
+            </div>
+            <div class="audio-card">
+              <div class="audio-icon">📢</div>
+              <div class="audio-info">
+                <h3>Testimonios de Clientes</h3>
+                <p>Microempresarios salvadoreños comparten su experiencia tras digitalizar su negocio con Red Activa.</p>
+              </div>
+              <audio controls class="audio-player">
+                <source src="audio/Testimonio.mp3" type="audio/mpeg" />
+                Tu navegador no soporta audio HTML5.
+              </audio>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- VIDEO -->
+        <div class="mtab-content" id="mtab-video">
+          <div class="video-section">
+            <div class="video-card main-video">
+              <div class="video-label">VIDEO PRINCIPAL</div>
+              <div class="video-wrap">
+                <video controls poster="" class="vid-player">
+                  <source src="video/Nexus.mp4" type="video/mp4" />
+                  Tu navegador no soporta video HTML5.
+                </video>
+              </div>
+              <p class="video-desc">Nosotros Somos Nexus</p>
+            </div>
+            <div class="video-card secondary-video">
+              <div class="video-label">TUTORIAL</div>
+              <div class="video-wrap">
+                <video controls class="vid-player">
+                  <source src="video/Red_activa.mp4" type="video/mp4" />
+                  Tu navegador no soporta video HTML5.
+                </video>
+              </div>
+              <p class="video-desc">Red Activa.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== FORMULARIO DE CONTACTO ===== -->
+    <section class="content-section" id="sec-contacto">
+      <div class="section-inner">
+        <p class="section-tag">// 07 — Adquiere el Servicio</p>
+        <h2 class="section-heading">Únete a <em>Red Activa</em></h2>
+        <p class="lead-text">Completa el formulario y un asesor de NEXUS se pondrá en contacto contigo para iniciar la digitalización de tu negocio.</p>
+
+        
+
+        <div class="form-layout">
+          <div class="form-wrap">
+            <div id="formSuccess" class="form-success hidden">
+              <div class="fs-icon">✅</div>
+              <h3>¡Solicitud enviada!</h3>
+              <p>Recibimos tu información. Un asesor NEXUS te contactará en menos de 24 horas al correo y teléfono que proporcionaste.</p>
+              <button class="btn-primary" id="formReset">Enviar otra solicitud</button>
+            </div>
+
+            <div id="formContainer">
+              <div class="form-grid">
+
+                <!-- NOMBRE COMPLETO -->
+                <div class="field-group full-width">
+                  <label for="nombre">Nombre completo <span class="req">*</span></label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Ej. Ana García López" autocomplete="name" />
+                  <span class="field-error" id="err-nombre"></span>
+                </div>
+
+                <!-- NOMBRE EMPRESA -->
+                <div class="field-group full-width">
+                  <label for="empresa">Nombre de la empresa <span class="req">*</span></label>
+                  <input type="text" id="empresa" name="empresa" placeholder="Ej. Tienda La Esperanza" autocomplete="organization" />
+                  <span class="field-error" id="err-empresa"></span>
+                </div>
+
+                <!-- EMAIL -->
+                <div class="field-group">
+                  <label for="email">Correo electrónico <span class="req">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" autocomplete="email" />
+                  <span class="field-error" id="err-email"></span>
+                </div>
+
+                <!-- TELÉFONO -->
+                <div class="field-group">
+                  <label for="telefono">Número de teléfono <span class="req">*</span></label>
+                  <input type="tel" id="telefono" name="telefono" placeholder="Ej. 7000-0000" autocomplete="tel" maxlength="15" />
+                  <span class="field-error" id="err-telefono"></span>
+                </div>
+
+                <!-- DEPARTAMENTO -->
+                <div class="field-group">
+                  <label for="departamento">Departamento / Municipio <span class="req">*</span></label>
+                  <select id="departamento" name="departamento">
+                    <option value="">— Selecciona —</option>
+                    <option>Ahuachapán</option>
+                    <option>Cabañas</option>
+                    <option>Chalatenango</option>
+                    <option>Cuscatlán</option>
+                    <option>La Libertad</option>
+                    <option>La Paz</option>
+                    <option>La Unión</option>
+                    <option>Morazán</option>
+                    <option>San Miguel</option>
+                    <option>San Salvador</option>
+                    <option>San Vicente</option>
+                    <option>Santa Ana</option>
+                    <option>Sonsonate</option>
+                    <option>Usulután</option>
+                  </select>
+                  <span class="field-error" id="err-departamento"></span>
+                </div>
+
+                <!-- RUBRO -->
+                <div class="field-group">
+                  <label for="rubro">Rubro del negocio <span class="req">*</span></label>
+                  <select id="rubro" name="rubro">
+                    <option value="">— Selecciona —</option>
+                    <option>Venta de Productos</option>
+                    <option>Servicios Profesionales</option>
+                    <option>Compra de Insumos</option>
+                    <option>Alimentación y Restaurantes</option>
+                    <option>Tecnología</option>
+                    <option>Salud y Bienestar</option>
+                    <option>Moda y Accesorios</option>
+                    <option>Construcción</option>
+                    <option>Educación</option>
+                    <option>Otro</option>
+                  </select>
+                  <span class="field-error" id="err-rubro"></span>
+                </div>
+
+                <!-- PLAN -->
+                <div class="field-group full-width">
+                  <label>Plan de interés <span class="req">*</span></label>
+                  <div class="plan-cards" id="planCards">
+                    <div class="plan-option" data-plan="basico">
+                      <div class="po-icon">🌱</div>
+                      <strong>Básico</strong>
+                      <p>Presencia en el directorio + sitio plantilla base</p>
+                    </div>
+                    <div class="plan-option" data-plan="estandar">
+                      <div class="po-icon">🚀</div>
+                      <strong>Estándar</strong>
+                      <p>Editor visual + personalización completa + indexación</p>
+                    </div>
+                    <div class="plan-option" data-plan="premium">
+                      <div class="po-icon">⭐</div>
+                      <strong>Premium</strong>
+                      <p>Todo lo anterior + soporte prioritario + dominio propio</p>
+                    </div>
+                  </div>
+                  <input type="hidden" id="plan" name="plan" />
+                  <span class="field-error" id="err-plan"></span>
+                </div>
+
+                <!-- MENSAJE -->
+                <div class="field-group full-width">
+                  <label for="mensaje">Cuéntanos más sobre tu negocio <span class="optional">(opcional)</span></label>
+                  <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué productos o servicios ofreces? ¿Tienes sitio web actualmente? ¿Alguna necesidad específica?"></textarea>
+                </div>
+
+                <!-- TÉRMINOS -->
+                <div class="field-group full-width">
+                  <label class="checkbox-label">
+                    <input type="checkbox" id="terminos" name="terminos" />
+                    <span class="checkmark"></span>
+                    Acepto que NEXUS me contacte para gestionar mi solicitud de servicio. <span class="req">*</span>
+                  </label>
+                  <span class="field-error" id="err-terminos"></span>
+                </div>
+
+              </div><!-- /.form-grid -->
+
+              <div class="form-footer-row">
+                <div class="required-note"><span class="req">*</span> Campos obligatorios</div>
+                <button class="btn-submit" id="btnSubmit">
+                  <span id="btnText">Enviar Solicitud</span>
+                  <span id="btnSpinner" class="spinner hidden"></span>
+                </button>
+              </div>
+
+            </div><!-- /#formContainer -->
+          </div><!-- /.form-wrap -->
+
+          <div class="form-sidebar">
+            <div class="contact-info-card">
+              <h3>¿Tienes dudas?</h3>
+              <p>Nuestro equipo está disponible para resolver cualquier pregunta antes de que envíes tu solicitud.</p>
+              <div class="ci-item">
+                <span class="ci-icon">📧</span>
+                <span>nexus.redactiva@gmail.com</span>
+              </div>
+              <div class="ci-item">
+                <span class="ci-icon">📱</span>
+                <span>+503 7855-8537</span>
+              </div>
+              <div class="ci-item">
+                <span class="ci-icon">📍</span>
+                <span>El Salvador, Centroamérica</span>
+              </div>
+            </div>
+            <div class="trust-badges">
+              <div class="tb-item">🔒 Datos protegidos</div>
+              <div class="tb-item">⚡ Respuesta en 24h</div>
+              <div class="tb-item">✅ Sin compromisos</div>
+            </div>
+            <!-- REGISTRO LOCAL -->
+            <div class="local-log-card" id="localLogCard" style="display:none;">
+              <h4>📋 Solicitudes guardadas localmente</h4>
+              <div id="localLogList"></div>
+              <button class="btn-clear-log" id="btnClearLog">Limpiar registros</button>
+            </div>
+          </div>
+        </div><!-- /.form-layout -->
+
+      </div>
+    </section>
+
+    <!-- ===== IDENTIDAD ===== -->
+    <section class="content-section" id="sec-identidad">
+      <div class="section-inner">
+        <p class="section-tag">// 08 — Identidad</p>
+        <h2 class="section-heading">Colores con <em>Historia</em></h2>
+
+        <div class="identity-grid">
+          <div class="identity-left">
+            <div class="flag-card">
+              <div class="flag-strip blue"></div>
+              <div class="flag-strip white">
+                <span class="flag-text">EL SALVADOR</span>
+              </div>
+              <div class="flag-strip blue"></div>
+            </div>
+            <p class="flag-caption">Bandera de la República de El Salvador</p>
+          </div>
+          <div class="identity-right">
+            <div class="dato-badge">
+              <span class="db-tag">DATO INTERESANTE</span>
+            </div>
+            <h3>Azul y Blanco: más que una paleta de colores</h3>
+            <p>
+              Cada elemento visual de NEXUS y de Red Activa — desde los botones hasta los fondos — sigue una paleta deliberada de <strong>azul y blanco</strong>.
+            </p>
+            <p>
+              Estos no son colores elegidos al azar. Son los colores de la bandera de <strong>El Salvador</strong>: el azul intenso de sus franjas representa el océano Pacífico y el cielo, mientras que el blanco del centro simboliza paz y unidad entre los pueblos centroamericanos.
+            </p>
+            <p>
+              Usar estos colores es una declaración de origen: NEXUS es una empresa salvadoreña, construida para salvadoreños, con orgullo de lo que somos y de dónde venimos.
+            </p>
+            <div class="color-chips">
+              <div class="chip">
+                <div class="chip-swatch blue-chip"></div>
+                <span class="chip-label">Azul SV — #0F3F8C</span>
+              </div>
+              <div class="chip">
+                <div class="chip-swatch white-chip"></div>
+                <span class="chip-label">Blanco — #F5F8FF</span>
+              </div>
+              <div class="chip">
+                <div class="chip-swatch accent-chip"></div>
+                <span class="chip-label">Acento — #1A6FD4</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo"> <img src="NEXUS.jpg" alt="Logo NEXUS" height="50"></span>
+        <div>
+          <p class="footer-name">NEXUS</p>
+          <p class="footer-tagline">Red Activa — El Salvador</p>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 NEXUS./César/Xochilt/Keiry/Rosio</p>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
