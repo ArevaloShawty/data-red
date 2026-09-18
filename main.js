@@ -6,9 +6,9 @@
 // 1. Crea cuenta gratis en https://www.emailjs.com
 // 2. Crea un servicio Gmail y una plantilla
 // 3. Reemplaza los tres valores de abajo con los tuyos
-const EMAILJS_PUBLIC_KEY  = 'QQukUWF0_9WkctR_V';
-const EMAILJS_SERVICE_ID  = 'service_f8xppai';
-const EMAILJS_TEMPLATE_ID = 'template_prx9pyd';
+const EMAILJS_PUBLIC_KEY  = 'bDDAb39hvKkC_AklX';
+const EMAILJS_SERVICE_ID  = 'service_wmxtxr8';
+const EMAILJS_TEMPLATE_ID = 'template_jp8x3jj';
 // ────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
